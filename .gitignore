@@ -3,4 +3,19 @@
 CaddyfileRemoteRuben
 tests-out/
 storageState.json
-.env.production
+.env.production# local env files and build outputs
+.env
+.env.*
+*.env
+*.env.*
+
+# dependency/build caches (never commit)
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.cache/
+.next/
+coverage/
+# keep these built artifacts out of future commits (but we did not purge their history)
+dist/
+build/
