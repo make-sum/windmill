@@ -19,3 +19,4 @@ coverage/
 # keep these built artifacts out of future commits (but we did not purge their history)
 dist/
 build/
+# local env files and build outputs
